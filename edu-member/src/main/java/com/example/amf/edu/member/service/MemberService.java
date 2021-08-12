@@ -6,5 +6,5 @@ import com.example.amf.edu.member.domain.member.entity.Member;
 
 public interface MemberService {
 	List<Member> findAllMemberByTeamId(Long id);
-	Member saveMember(Member member, Long teamId);
+	Member saveMember(Member member);
 }
